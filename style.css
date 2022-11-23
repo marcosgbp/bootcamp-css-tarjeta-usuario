@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 500px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: 300px;
+}
+.user-icono{
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    border-radius:50%;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.location, .edit-profile{
+    display: flex;
+}
+.location-icono, .setting-icono{
+    width: 20px;
+}
+.cabecera{
+    background-color: aqua;
+    height: 50px;
+}
+.cuerpo{
+    margin: 70px 20px 20px 30px;
+}
